@@ -4,7 +4,7 @@ function multiply(a=2,b=4){return a*b}
 function divide(a=2,b=2){return a/b}
 function inc(n=5){return ++n}
 function dec(n=5){return --n}
-function makeInt(n=5){return parseInt(n)}
+function makeInt(n=5){return parseInt(n,10)}
 function makeInt(n=5){return parseInt(n,10)}
 function makeInt(n="hello"){return parseInt(n)}
 function preserveDecimal(n=3.14){return parseFloat(n)}
